@@ -8,23 +8,23 @@
 
 ## Ajouter Maven aux variables d'environnement
 
-- ```Sytème``` > ```Paramètres système avancés``` > ```Variable d'environnement...``` > ```Nouvelle (Variable utilisateur)```
+- `Sytème` > `Paramètres système avancés` > `Variable d'environnement...` > `Nouvelle (Variable utilisateur)`
 - Ajouter le nom de la variable : MVN_HOME
-- Ajouter le chemin du dossier bin : ```C:\...\...\apache-maven-[version]```
+- Ajouter le chemin du dossier bin : `C:\...\...\apache-maven-[version]`
 - Valider
 
 
 ## Ajouter Maven au PATH
 
-- ```Sytème``` > ```Paramètres système avancés``` > ```Variable d'environnement...``` > ```Nouvelle (Variable utilisateur)``` > ```Path``` > ```Modifier...``` > ```Nouveau```
-- Ajouter à la suite le chemin allant jusqu'au dossier bin : ```C:\...\...\apache-maven-[version]\bin```
+- `Sytème` > `Paramètres système avancés` > `Variable d'environnement...` > `Nouvelle (Variable utilisateur)` > `Path` > `Modifier...` > `Nouveau`
+- Ajouter à la suite le chemin allant jusqu'au dossier bin : `C:\...\...\apache-maven-[version]\bin`
 - Valider
 
 
 ## Test d'installation
 
-- Ouvrir le menu ```Démarrer``` > Taper ```cmd``` ou ```Invite de commande```
-- Taper ensuite ```mvn --version```
+- Ouvrir le menu `Démarrer` > Taper `cmd` ou `Invite de commande`
+- Taper ensuite `mvn --version`
 
 Si vous avez un texte comme ci-dessous, vous avez installé correctement Maven. Sinon, veuillez le réinstaller depuis le début.
 ```
